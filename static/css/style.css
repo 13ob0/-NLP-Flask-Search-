@@ -1,0 +1,81 @@
+#title {
+    font-size: 50px;
+    letter-spacing: -1px;
+    font-family: "Product Sans", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#secondary {
+    font-family: "Product Sans", sans-serif;
+    font-size: 20px;
+}
+
+.blue{color:#4285F4;}      /*各字母颜色设置*/
+.red{color:#EA4335;}
+.orange{color:#FBBC05;}
+.green{color:#34A853;}
+
+/*调整border*/
+.RNNXgb{
+    background:#fff;
+    display:table-cell;
+    /*text-align:center;*/
+    vertical-align: middle;
+    border-radius:8px;
+    border:1px solid #dfe1e5;
+    box-shadow:none;
+    border-radius:24px;
+    z-index:3;
+    height:44px;
+    /*margin:0 auto;*/
+    width:482px;
+}
+
+.RNNXgb:hover{
+    box-shadow:0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color:rgba(223,225,229,0);
+}
+.RNNXgb{width:582px}
+
+.RNNXgb{
+    background-color:transparent;
+    /*border:none;*/
+    margin:0;
+    padding-left:3%;
+    padding-right:3%;
+    color:rgba(0,0,0,.87);
+    word-wrap:break-word;
+    outline:none;
+    display:flex;
+    flex:100%;
+    -webkit-tap-highlight-color:transparent;
+    margin-top:0px;
+    resize: none;
+
+}
+
+#searchBtnId {
+    color: #444444;
+    background: #F3F3F3;
+    width: 60px;
+    border: 1px #DADADA solid;
+    padding: 5px 10px;
+    border-radius: 24px;
+    font-weight: bold;
+    font-size: 9pt;
+    outline: none;
+    text-align: center;
+}
+
+#searchBtnId:hover {
+    border: 1px #C6C6C6 solid;
+    box-shadow: 1px 1px 1px #EAEAEA;
+    color: #333333;
+    background: #F7F7F7;
+}
+
+#searchBtnId:active {
+    box-shadow: inset 1px 1px 1px #DFDFDF;
+}
